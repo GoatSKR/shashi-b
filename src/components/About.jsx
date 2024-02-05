@@ -1,15 +1,13 @@
 export default function About() {
     return (
         <div className="relative">
-
-
             <div className="absolute inset-0 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/static/images/shashlong.jpg")', filter: 'blur(2px)' }}></div>
             <div class="absolute inset-0 bg-[#000000] opacity-50"></div>
-            <div className="p-[30px] relative z-10 flex flex-row">
-                <div className="basis-1/2 ">
+            <div className="p-[30px] relative z-10 flex flex-col-reverse md:flex-row">
+                <div className="basis-1/2 mt-[20px] md:mt-[0px]">
                     <img src="/static/images/shashlong.jpg" alt="shashi" />
                 </div>
-                <div className="basis-1/2 lg:mt-[10%] px-[60px] items-start">
+                <div className="basis-1/2 lg:mt-[10%] px-[5px] md:px-[60px] items-start">
                     <div className="text-left text-white font-extrabold font-ROBOTO  text-4xl">
                         <h1>About</h1>
                     </div>

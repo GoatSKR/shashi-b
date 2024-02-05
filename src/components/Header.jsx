@@ -7,7 +7,7 @@ export default function Header() {
             <nav className="w-full bg-[#535252]">
                 <div className="flex items-left justify-between px-2">
                     <div className="">
-                        <img className="pl-2 pt-2" src="https://static.wixstatic.com/media/87bf9e_0eb12d92e4c744239f9a587e899b226a~mv2.png/v1/fill/w_97,h_97,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Transparent%20Background%20SBMB%20Logo.png" alt="Logo" />
+                        <img className="pl-2 py-2" src="https://static.wixstatic.com/media/87bf9e_0eb12d92e4c744239f9a587e899b226a~mv2.png/v1/fill/w_97,h_97,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Transparent%20Background%20SBMB%20Logo.png" alt="Logo" />
                     </div>
                     <div className="md:hidden">
                         <button
@@ -54,7 +54,20 @@ export default function Header() {
                                     href={`#${link.id}`}
                                     key={link.id}
                                     className="text-white font-Helvet px-3 font-light hover:underline"
-                                    >
+                                >
+                                    {link.name}
+                                </a>
+                            </React.Fragment>
+                        ))}
+                    </div>
+                    <div className={`md:hidden ${isOpen ? "block" : "hidden"}`} >
+                        {navLinks.map((link) => (
+                            <React.Fragment key={link.id}>
+                                <a
+                                    href={`#${link.id}`}
+                                    key={link.id}
+                                    className="block text-black font-Helvet px-3 py-2 font-light w-full border-b border-gray-300 hover:underline"
+                                >
                                     {link.name}
                                 </a>
                             </React.Fragment>

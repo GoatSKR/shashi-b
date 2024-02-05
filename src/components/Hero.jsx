@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <div className="bg-[#b0acad] bg-no-repeat bg-right bg-contain px-[70px] py-[180px]"
+        <div className="bg-[#b0acad] bg-no-repeat bg-right bg-contain px-[10px] md:px-[70px] py-[180px]"
             style={{ backgroundImage: 'url("/static/images/shashib.jpg")' }}>
             <div className="flex flex-row justify-between"
             >

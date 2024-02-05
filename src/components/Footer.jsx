@@ -1,13 +1,13 @@
 export default function Footer() {
     return (
         <div className="p-8 bg-black">
-            <div className="flex items-left flex-row justify-between px-2">
-                <div className="">
-                    <p>
+            <div className="flex items-left md:flex-row flex-col justify-center md:justify-between px-2">
+                <div className="text-center md:text-left">
+                    <p className="md:ml-[80px]">
                         © 2023 Jordan Peterson
                     </p>
                 </div>
-                <div className="flex flex-row">
+                <div className="flex flex-row justify-center lg:justify-end mt-4 md:mt-0">
                     <ul class="flex justify-center space-x-5">
                         <li>
                             <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
