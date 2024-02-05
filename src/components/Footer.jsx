@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="flex items-left md:flex-row flex-col justify-center md:justify-between px-2">
                 <div className="text-center md:text-left">
                     <p className="md:ml-[80px]">
-                        © 2023 Jordan Peterson
+                        © 2024 Shashi Bhushan Singh
                     </p>
                 </div>
                 <div className="flex flex-row justify-center lg:justify-end mt-4 md:mt-0">
