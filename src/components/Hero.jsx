@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <div className="bg-[#b0acad] bg-no-repeat bg-right bg-contain px-[70px] py-[180px]"
-            style={{ backgroundImage: 'url("public/images/shashib.jpg")' }}>
+            style={{ backgroundImage: 'url("/static/images/shashib.jpg")' }}>
             <div className="flex flex-row justify-between"
             >
                 <div>
