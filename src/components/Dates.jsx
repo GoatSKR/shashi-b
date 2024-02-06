@@ -8,8 +8,8 @@ export default function Dates() {
                     <p className="text-ROBOTOB text-8xl text-gray-400 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">4</p>
                     <p className="absolute text-OSWALD top-1/2  left-1/2 transform text-[16px] -translate-x-1/2 -translate-y-1/2">FEBRUARY</p>
                 </div>
-                <div><p className="text-OSWALD text-center pt-[40px] lg:pt-[5px] text-[16px]">PROVIDENCE, RI</p></div>
-                <div><p className="text-OSWALD text-center pt-[8px] lg:pt-[5px] text-[16px]">PROVIDENCE PERFORMING ARTS CENTER</p></div>
+                <div><p className="text-OSWALD text-center pt-[40px] lg:pt-[5px] text-[16px]">NCR, DELHI</p></div>
+                <div><p className="text-OSWALD text-center pt-[8px] lg:pt-[5px] text-[16px]">NDMC CONVENTION CENTER</p></div>
                 <div className="text-OSWALD text-center pt-[8px] lg:pt-[5px] text-[16px]">TICKETS</div>
             </div>
             <div className="border-b border-[#131414]  "  style={{ marginLeft: '15%', marginRight: '15%' }}></div>
@@ -19,11 +19,13 @@ export default function Dates() {
                     <p className="text-ROBOTOB text-8xl text-gray-400 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">5</p>
                     <p className="absolute text-OSWALD top-1/2  left-1/2 transform text-[16px] -translate-x-1/2 -translate-y-1/2">FEBRUARY</p>
                 </div>
-                <div><p className="text-OSWALD text-center pt-[40px] lg:pt-[5px] text-[16px]">PROVIDENCE, RI</p></div>
-                <div><p className="text-OSWALD text-center px-[100px] pt-[8px] lg:pt-[5px] text-[16px]">SNHU ARENA</p></div>
+                <div><p className="text-OSWALD text-center pt-[40px] lg:pt-[5px] text-[16px]">NCR, DELHI</p></div>
+                <div><p className="text-OSWALD text-center pt-[8px] lg:pt-[5px] text-[16px]">INDIA CONFERENCE CENTER</p></div>
                 <div className="text-OSWALD text-center pt-[8px] lg:pt-[5px] text-[16px]">TICKETS</div>
             </div>
             <div className="border-b border-[#131414]  "  style={{ marginLeft: '15%', marginRight: '15%' }}></div>
+
+            
         
 
         </div >

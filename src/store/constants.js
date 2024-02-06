@@ -13,26 +13,6 @@ export const navLinks = [
   },
   {
     id: "4",
-    name: "Podcast",
-  },
-  {
-    id: "5",
-    name: "Books",
-  },
-  {
-    id: "6",
-    name: "Blogs",
-  },
-  {
-    id: "7",
-    name: "Companies",
-  },
-  {
-    id: "8",
-    name: "Scientific Articles",
-  },
-  {
-    id: "9",
     name: "Contacts",
   },
 ]
