@@ -65,7 +65,7 @@ export default function HeroContact() {
 
                                 ))}
                             </div>
-                            <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-[#b0acad] pt-12`}>
+                            <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent pt-12`}>
                                 {navLinks.map((link) => (
 
                                     <Link
@@ -82,7 +82,7 @@ export default function HeroContact() {
                     </div>
                 </nav>
                 <div className="px-[10px] md:px-[70px] pt-[80px] md:pt-[180px] pb-[180px] md:pb-[180px]">
-                    
+
                     <div class="flex items-center justify-center h-full">
                         <div>
                             <h1 class="font-OSWALD text-center text-3xl md:text-5xl lg:text-8xl text-white mb-0">CONTACTS</h1>

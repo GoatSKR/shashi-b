@@ -1,7 +1,7 @@
 export default function ContactData() {
     return (
         <div className="p-[20px] md:p-[100px] bg-black">
-            <div className="flex items-left md:flex-row flex-col justify-center md:justify-between px-2">
+            <div className="flex items-left md:flex-row flex-col justify-center md:justify-center px-2">
                 <div className="text-center md:text-left">
                     <p className="md:ml-[80px] text-[22px] font-OSWALD">
                         Business Inquiries
@@ -10,12 +10,12 @@ export default function ContactData() {
                         Please contact:
                     </p>
                     <p className="md:ml-[80px] font-sans ">
-                        business@jordanbpeterson.com
+                        business@shashibsingh.com
                     </p>
                 </div>
-                <div className="text-center md:text-left mt-6 md:mt-0">
+                {/* <div className="text-center md:text-left mt-6 md:mt-0">
                     <p className="md:ml-[80px] text-[22px] font-OSWALD">
-                        Media Inquiries
+                        Course Inquiries
                     </p>
                     <p className="md:ml-[80px] mt-1 font-sans">
                         Please contact:
@@ -23,7 +23,7 @@ export default function ContactData() {
                     <p className="md:ml-[80px] font-sans">
                         media@jordanbpeterson.com
                     </p>
-                </div>
+                </div> */}
                 <div className="text-center md:text-left mt-6 md:mt-0">
                     <p className="md:ml-[80px] text-[22px] font-OSWALD">
                         Permissions & Rights

@@ -5,8 +5,8 @@ export default function () {
             <div className="absolute inset-0 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("/static/images/shashlong.jpg")', filter: 'blur(2px)' }}></div>
             <div class="absolute inset-0 bg-[#000000] opacity-50"></div>
             <div className="p-[30px] relative z-10 flex flex-col-reverse md:flex-row">
-                <div className="basis-1/2 mt-[20px] md:mt-[0px]">
-                    <img src="/static/images/shashlong.jpg" alt="shashi" />
+                <div className="basis-1/2 mt-[20px] md:mt-[0px] bg-[#b0acad]">
+                    <img src="/static/images/shash3.png" alt="shashi" />
                 </div>
                 <div className="basis-1/2 lg:mt-[10%] px-[5px] md:px-[60px] items-start">
                     <div className="text-left text-white font-extrabold font-ROBOTO  text-4xl">

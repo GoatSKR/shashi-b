@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <div className=" bg-[#b0acad]">
             <div className=" bg-no-repeat bg-right-bottom bg-contain"
-                style={{ backgroundImage: 'url("/static/images/shashib.jpg")' }}>
+                style={{ backgroundImage: 'url("/static/images/shashb4.png")' }}>
                 <nav className="w-full md:pr-[20px]">
                     <div className="flex items-left justify-between px-2">
                         <div class="absolute inset-0 bg-[#000000] h-[115px] opacity-50"></div>

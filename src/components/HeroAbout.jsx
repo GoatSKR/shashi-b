@@ -5,8 +5,8 @@ export default function HeroAbout() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className=" bg-[#b0acad]">
-            <div className=" bg-no-repeat bg-right-bottom bg-contain"
-                style={{ backgroundImage: 'url("/static/images/shashib.jpg")' }}>
+            <div className=" bg-no-repeat bg-right-bottom bg-contain "
+                style={{ backgroundImage: 'url("/static/images/shashb4.png")' }}>
                 <nav className="w-full md:pr-[20px]">
                     <div className="flex items-left justify-between px-2">
                         <div class="absolute inset-0 bg-[#000000] h-[115px] opacity-50"></div>
@@ -65,17 +65,17 @@ export default function HeroAbout() {
 
                                 ))}
                             </div>
-                            <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-[#b0acad] pt-12`}>
+                            <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent pt-12`}>
                                 {navLinks.map((link) => (
-
-                                    <Link
-                                        to={`/${link.name.replace(/\s/g, '')}`}
-                                        key={link.id}
-                                        className="block text-[#284B69] font-semibold font-sans px-3 py-2 bg-[#b0acad]  border-b border-gray-700 hover:bg-[white] relative"
-                                    >
-                                        {link.name}
-                                    </Link>
-
+                                   
+                                        <Link
+                                            to={`/${link.name.replace(/\s/g, '')}`}
+                                            key={link.id}
+                                            className="block text-[#284B69] font-semibold font-sans px-3 py-2 bg-[#b0acad]  border-b border-gray-700 hover:bg-[white] relative"
+                                        >
+                                            {link.name}
+                                        </Link>
+                               
                                 ))}
                             </div>
                         </div>
