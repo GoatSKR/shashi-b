@@ -81,10 +81,10 @@ export default function HeroAbout() {
                         </div>
                     </div>
                 </nav>
-                <div className="px-[10px] md:px-[70px] pt-[80px] md:pt-[180px] pb-[180px] md:pb-[180px]">
+                <div className="px-[10px] md:px-[200px] pt-[80px] md:pt-[300px] pb-[180px] md:pb-[300px]">
                     <div className="flex  flex-col md:flex-row justify-between">
                         <div className="">
-                            <p className="font-sans text-[#284B69] text-md md:text-lg font-bold w-auto md:w-1/3 pb-[180px] md:pb-[0px]" >
+                            <p className="font-sans text-[#284B69] text-md md:text-lg font-bold w-auto md:w-2/3 pb-[180px] md:pb-[0px]" >
                                 "Learning any language, especially English, opens doors to opportunities. With
                                 the right mindset and guidance, fluency is achievable. Dedication leads to mastery."
                             </p>

@@ -9,22 +9,22 @@ export default function () {
                     <img src="/static/images/shash3.png" alt="shashi" />
                 </div>
                 <div className="basis-1/2 lg:mt-[10%] px-[5px] md:px-[60px] items-start">
-                    <div className="text-left text-white font-extrabold font-ROBOTO  text-4xl">
+                    <div className="text-left text-white font-extrabold font-OSWALD  text-4xl">
                         <h1>The Founder</h1>
                     </div>
-                    <p className="mt-8">
+                    <p className="mt-8 font-sans">
                         Shashi Bhushan Singh is the founder and the teaching centre head of the SBMB School
                         of Language.
                     </p>
-                    <p className="mt-3">
+                    <p className="mt-3 font-sans">
                         Shashi went to a public school and then studied at British Council. He studied with students
                         from all around the world.
                     </p>
-                    <p className="mt-3">
+                    <p className="mt-3 font-sans">
                         Having invested more than 5 years in rigorous research on Business Communication Skills, Professional
                         Development, Leadership and Management, Strategic Management and Solution-Oriented Mechanism for Businesses.
                     </p>
-                    <p className="mt-3">
+                    <p className="mt-3 font-sans">
                         Driven by a relentless curiosity, Shashi began his research and teaching career in 2020.
                     </p>
                 </div>

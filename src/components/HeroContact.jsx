@@ -81,7 +81,7 @@ export default function HeroContact() {
                         </div>
                     </div>
                 </nav>
-                <div className="px-[10px] md:px-[70px] pt-[80px] md:pt-[180px] pb-[180px] md:pb-[180px]">
+                <div className="px-[10px] md:px-[70px] pt-[80px] md:pt-[300px] pb-[180px] md:pb-[180px]">
 
                     <div class="flex items-center justify-center h-full">
                         <div>
