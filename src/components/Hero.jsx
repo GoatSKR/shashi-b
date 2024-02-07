@@ -5,7 +5,7 @@ export default function Hero() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className=" bg-[#b0acad]">
-            <div className=" bg-no-repeat bg-right-bottom bg-contain"
+            <div className=" bg-no-repeat bg-right-bottom bg-contain md:h-[910px]"
                 style={{ backgroundImage: 'url("/static/images/shashb4.png")' }}>
                 <nav className="w-full md:pr-[20px]">
                     <div className="flex items-left justify-between px-2">
