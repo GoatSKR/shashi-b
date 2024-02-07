@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { navLinks } from "../store/constants";
 import React, { useState, useEffect } from 'react';
-export default function Hero() {
+export default function HeroContact() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className=" bg-[#b0acad]">
-            <div className=" bg-no-repeat bg-right-bottom bg-contain"
+            <div className=" bg-no-repeat bg-left-bottom bg-contain"
                 style={{ backgroundImage: 'url("/static/images/shashib.jpg")' }}>
                 <nav className="w-full md:pr-[20px]">
                     <div className="flex items-left justify-between px-2">
@@ -54,43 +54,41 @@ export default function Hero() {
                             </div>
                             <div className="hidden md:flex items-center justify-around gap-2 relative pt-12">
                                 {navLinks.map((link) => (
-                                   
-                                        <Link
-                                            to={`/${link.name.replace(/\s/g, '')}`}
-                                            key={link.id}
-                                            className="text-white font-Helvet px-3 font-light hover:underline"
-                                        >
-                                            {link.name}
-                                        </Link>
-                                  
+
+                                    <Link
+                                        to={`/${link.name.replace(/\s/g, '')}`}
+                                        key={link.id}
+                                        className="text-white font-Helvet px-3 font-light hover:underline"
+                                    >
+                                        {link.name}
+                                    </Link>
+
                                 ))}
                             </div>
-                            <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-transparent pt-12`}>
+                            <div className={`md:hidden ${isOpen ? "block" : "hidden"} bg-[#b0acad] pt-12`}>
                                 {navLinks.map((link) => (
-                                   
-                                        <Link
-                                            to={`/${link.name.replace(/\s/g, '')}`}
-                                            key={link.id}
-                                            className="block text-[#284B69] font-semibold font-sans px-3 py-2 bg-[#b0acad]  border-b border-gray-700 hover:bg-[white] relative"
-                                        >
-                                            {link.name}
-                                        </Link>
-                               
+
+                                    <Link
+                                        to={`/${link.name.replace(/\s/g, '')}`}
+                                        key={link.id}
+                                        className="block text-[#284B69] font-semibold font-sans px-3 py-2 bg-[#b0acad]  border-b border-gray-700 hover:bg-[white] relative"
+                                    >
+                                        {link.name}
+                                    </Link>
+
                                 ))}
                             </div>
                         </div>
                     </div>
                 </nav>
-                <div className="px-[10px] md:px-[70px] pt-[30px] md:pt-[180px] pb-[380px] md:pb-[180px]">
-                    <div className="flex  flex-col md:flex-row justify-between">
-                        <div className="">
-                            <h1 className="font-OSWALD text-3xl md:text-5xl lg:text-8xl text-[#592627] mb-0">SHASHI B.</h1>
-                            <h1 className="font-OSWALD text-3xl md:text-5xl lg:text-8xl text-[#284B69]">SINGH</h1>
-                            <p className="font-sans text-[#284B69] text-md md:text-lg font-bold" >
-                                If you enjoy the process of learning English <br /> it seems as if you're acquiring it
-                            </p>
+                <div className="px-[10px] md:px-[70px] pt-[80px] md:pt-[180px] pb-[180px] md:pb-[180px]">
+                    
+                    <div class="flex items-center justify-center h-full">
+                        <div>
+                            <h1 class="font-OSWALD text-center text-3xl md:text-5xl lg:text-8xl text-white mb-0">CONTACTS</h1>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
